@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <title>Mini Portofólio</title>
+</head>
+
+<body>
+    <!-- 
+        Corpo do pórtifólio feito na aula da mapa dev week
+    -->
+    <main class="card">
+        <div class="my-info">
+            <img src="./src/images/foto-perfil.jpg" alt="foto do perfil">
+            <h1 class="name">Cainan Lima</h1>
+            <h2 class="role">Desenvolvedor Front-end Júnior</h2>
+        </div>
+
+        <div class="content">
+            <ul class="tabs">
+                <li class="tab selected" id="about-me">
+                    <img src="./src/images/sobre.gif" alt="icone de sobre mim">
+                </li>
+
+                <li class="tab" id="my-social">
+                    <img src="./src/images/coracao.gif" alt="icone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="tab-infos">
+                <div class="info selected" id="about-me-info">
+                    <h3 class="sub-title">Sobre</h3>
+
+                    <div class="description">
+                        <p>
+                            Oi! meu nome é Rodrigo da Silva, seja bem-vindo(a)!
+                        </p>
+
+                        <p>
+                            Sou uma pessoa apaixonada pela programação desde que eu tinha 15
+                            anos. Sempre tive o sonho de trabalhar com programação e
+                            atualmente comecei a colocar esse sonho em prática estudando
+                            <span>HTML, CSS e JavaScript.</span>
+                            Gosto muito de café (até demais), e meus principais hobbies são
+                            jogar MMO RPG, ver animes e séries.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="info" id="my-social-info">
+                    <h3 class="sub-title">Minhas redes</h3>
+
+                    <ul class="social">
+                        <li>
+                            <a href="" target="_blank" class="curriculo">Currículo</a>
+                        </li>
+
+                        <li>
+                            <a href="" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+
+                        <li>
+                            <a href="" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
